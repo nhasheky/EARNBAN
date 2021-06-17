@@ -1,0 +1,318 @@
+
+.top-header{
+	padding: 14px 0px;
+}
+
+.top-header .main-logo img{
+  width: 50%;
+}
+
+.top-header .top-link a{
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  margin-left: 20px;
+  transition: all .5s ease-in-out;
+}
+
+.top-header .top-link a:hover{
+  color: #29b2fe;
+}
+
+.navbar{
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+ color: rgba(255,255,255,.75);	
+}
+
+.dropdown-menu{
+ border: none;
+ border-radius: 10px;
+ box-shadow: 0px 0 20px 0 rgb(0 0 0 / 50%);
+}
+
+.carousel-caption{
+  bottom: 30%;
+}
+
+.btn{
+	border-radius: 8px
+}
+
+
+.title{
+	text-align: center
+}
+
+.category-area{
+	margin-top: 120px;
+}
+
+.category-area a{
+	text-decoration: none;
+}
+
+.category-box{
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+	text-align: center;
+	color: #000;
+}
+
+.category-box:hover{
+	color:#31D2F2;
+}
+
+.category-box i{
+	font-size: 24px;
+	margin: 10px 0;
+}
+
+.category-box p{
+	font-size: 20px
+}
+
+
+.feature-area{
+	margin-top: 120px;
+}
+
+.feature-box{
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+	color: #000;
+}
+
+.feature-box .card-body{
+	padding:40px 
+}
+
+
+.footer{
+	margin-top: 120px;
+	background: #161E2C;
+	color: #bec0c2;
+	padding:40px 0;
+}
+
+
+.footer .footer-logo img{
+   width: 100%
+}
+
+.footer .footer-link{
+	padding-top: 20px;
+}
+
+.footer .footer-link a{
+	display: block;
+	color: #bec0c2;
+	text-decoration: none;
+	margin-bottom: 10px;
+	transition: all .5s ease-in-out;
+}
+
+.footer .footer-link a:hover{
+    color: #fff;
+}
+
+.footer .social-link{
+  padding-top: 20px;
+}
+
+.footer .social-link a{
+  color: #bec0c2;
+  margin-right: 20px;
+  font-size: 20px;
+  transition: all .5s ease-in-out;
+}
+
+.footer .social-link a:hover{
+	color: #fff;
+}
+
+
+.footer .payment{
+  padding-top: 60px;
+}
+
+.footer .payment a{
+  color: #bec0c2;
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+
+.footer .footer-text{
+	padding-top: 80px
+}
+
+.footer .footer-text a{
+  text-decoration: none;
+
+}
+
+
+.breadcrumb-item a{
+	text-decoration: none;
+	color: #29B2FE
+}
+
+
+.about{
+	margin-top: 120px;
+}
+
+.about img{
+	border-radius: 20px;
+}
+
+
+.works{
+	margin-top: 120px;
+}
+
+.works img{
+	border-radius: 20px;
+}
+
+
+.jobs{
+	margin-top: 120px;
+}
+
+.jobs-header{
+	box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.job-list{
+   margin-top: 60px;
+}
+
+.single-job{
+	box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+	padding: 30px;
+	border-radius: 20px;
+}
+
+.job-details{
+	margin-top: 120px;
+}
+
+.job-details .card{
+	border: unset;
+	box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+	border-radius: 10px;
+	padding: 20px
+}
+
+.more-project p{
+  margin-bottom: 20px
+}
+
+.more-project a{
+   text-decoration: none;
+   font-size: 22px
+}
+
+.skills a{
+	border: 1px solid lightgray;
+	text-decoration: none;
+	padding: 6px 12px;
+	border-radius: 20px;
+	line-height: 1px;
+}
+
+.contact{
+	margin-top: 80px;
+}
+
+.contact-box{
+   box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+   padding: 30px;
+   border-radius: 20px;
+}
+
+
+.profile{
+	margin-top: 120px;
+}
+
+.profile .sidebar{
+	box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+	border-radius: 12px
+}
+
+
+.profile-photo{
+	padding: 20px 0;
+	border-radius: 12px
+}
+
+.profile-photo img{
+	width: 100px;
+	border-radius: 50%
+}
+
+
+.profile .nav{
+	padding:10px 30px;
+}
+
+.profile .nav .nav-link{
+	color: #212529
+}
+
+.profile .nav .nav-link:hover{
+	color: #5FC5FE
+}
+
+.profile .card{
+	border: unset;
+	box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+	border-radius: 12px
+}
+
+.profile  .card-header{
+ background: unset;
+}
+
+.show-profile{
+	margin-top: 120px;
+}
+
+.show-profile .card{
+	border: none;
+	box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+	border-radius: 12px
+}
+
+
+.profile-content a{
+	text-decoration: none;
+}
+
+
+.chat-box{
+  height: 400px;
+  overflow-x:auto; 
+  transform:rotate(180deg);
+  direction:rtl;
+}
+
+.chat-box .card{ 
+   margin:30px;
+   transform:rotate(180deg);
+   direction:ltr;
+}
